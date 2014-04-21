@@ -1,6 +1,19 @@
 <#
+|==============================================================================>|
   AlchemyCmd-AP by Apoorv Verma [AP] on 10/2/2013
-  AlchemyCmd-AP is a command line tool that connects to Alchemy API, which supports a variety of options for tuning natural language processing operations:
+|==============================================================================>|
+  DECRIPTION:
+  ----------
+    AlchemyCmd-AP is a command line tool that connects to Alchemy API, which 
+    supports a variety of options for tuning natural language 
+    processing operations.
+|==============================================================================>|
+  FEATURES:
+  --------
+      $) Very Dynamic and Detailed Parameter Handling [Better that linux counterpart :p]
+      $) Automated Features [Error Handling, Key Handling, Data Extraction]
+      $) Verbose Help Menu [Additional Features Documented too!]
+|==============================================================================>|
 #>
 param(
 [ValidateSet('concept','entity','keyword','category','language',"cquery")][Alias("M")][String]$mode,
